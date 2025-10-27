@@ -22,7 +22,7 @@ Below are the key screenshots that document each stage of the **Active Directory
 
 | # | Description | Screenshot |
 |---|--------------|-------------|
-| **1️⃣** | **Server Manager** showing installed roles (**AD DS**, **DNS**, and **DHCP**) on the Windows Server 2022 Domain Controller. | ![Server Manager Roles](./ServerManager_ADDS.png) |
+| **1️⃣** | **Server Manager** showing installed roles (**AD DS**, **DNS**, and **DHCP**) on the Windows Server 2022 Domain Controller. | ![Server Manager Roles](./Screenshots/ServerManager_ADDS.png) |
 | **2️⃣** | **DNS Manager** confirming the `lab.local` forward lookup zone and domain controller record (`DC01.lab.local`). | ![DNS Manager Lab Local](./Screenshots/DNS_LabLocal.png) |
 | **3️⃣** | **Active Directory Users and Computers (ADUC)** displaying the custom Organizational Unit (OU) named **LabUsers** created under the `lab.local` domain. | ![ADUC LabUsers OU](./Screenshots/ADUC_LabUsersOU.png) |
 | **4️⃣** | Domain user accounts (`john.lab`, `mary.lab`) created inside the **LabUsers** OU. | ![ADUC Users](./Screenshots/ADUC_LabUsers_Accounts.png) |
