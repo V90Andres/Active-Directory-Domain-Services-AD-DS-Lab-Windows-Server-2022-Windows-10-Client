@@ -24,7 +24,7 @@ Below are the key screenshots that document each stage of the **Active Directory
 |---|--------------|-------------|
 | **1️⃣** | **Server Manager** showing installed roles (**AD DS**, **DNS**, and **DHCP**) on the Windows Server 2022 Domain Controller. | ![Server Manager Roles](./Screenshots/ServerManager_ADDS.png) |
 | **2️⃣** | **DNS Manager** confirming the `lab.local` forward lookup zone and domain controller record (`DC01.lab.local`). | ![DNS Manager Lab Local](./Screenshots/DNS_LabLocal.png) |
-| **3️⃣** | **Active Directory Users and Computers (ADUC)** displaying the custom Organizational Unit (OU) named **LabUsers** created under the `lab.local` domain. | ![ADUC LabUsers OU](./Screenshots/ADUC_LabUsersOU.png) |
+| **3️⃣** | **Active Directory Users and Computers (ADUC)** displaying the custom Organizational Unit (OU) named **LabUsers** created under the `lab.local` domain. | ![ADUC LabUsers OU](./Screenshots/ADUC_LabLocal.png) |
 | **4️⃣** | Domain user accounts (`john.lab`, `mary.lab`) created inside the **LabUsers** OU. | ![ADUC Users](./Screenshots/ADUC_LabUsers_Accounts.png) |
 | **5️⃣** | **User Properties** window in ADUC showing general information and group membership for a domain user. | ![User Properties](./Screenshots/ADUC_UserProperties.png) |
 | **6️⃣** | **DHCP Manager** displaying the **Address Leases** section, confirming that the Windows 10 client received an IP lease (e.g. `192.168.10.10`) from the domain controller. | ![DHCP Lease](./Screenshots/DHCP_Lease.png) |
