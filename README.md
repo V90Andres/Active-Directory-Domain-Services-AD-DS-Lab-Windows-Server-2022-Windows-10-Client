@@ -32,7 +32,7 @@ Below are the key screenshots that document each stage of the **Active Directory
 | **8️⃣** | **System Properties** on the Windows 10 client confirming successful **domain membership** (`lab.local`). | ![Client Domain Join](./Screenshots/Client_DomainJoin.png) |
 | **9️⃣** | **Windows 10 login screen** displaying the “Other user” option and domain credentials (`lab\john.lab`) ready to log in to the `lab.local` domain. | ![Client Domain Login](./Screenshots/Client_LoginDomain.png) |
 | **🔟** | **Command Prompt (whoami)** on the client confirming successful authentication as a domain user (`lab\john.lab`). | ![Whoami Domain Verification](./Screenshots/Client_Whoami.png) |
-| *(Optional)* | Side-by-side view showing **ADUC on the server** and **Command Prompt on the client**, verifying domain connection and authentication in real time. | ![ADUC and Client Verification](./Screenshots/ADUC_and_Client_SideBySide.png) |
+
 
 ---
 
